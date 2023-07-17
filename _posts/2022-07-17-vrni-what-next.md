@@ -18,7 +18,7 @@ We will be covering broader areas like:
 
 - Network troubleshooting using GNT.
 
-- Flexibility of User defined alerts.
+- [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
 
 - Latency Monitoring using vRNI
 
