@@ -1,6 +1,6 @@
 ## So you got vRNI, now what?
 
-![](/vrniblog.github.io/docs/assets/images/image2023-2-8_9-34-25.png)
+![](/docs/assets/images/image2023-2-8_9-34-25.png)
 
 One of my favourite party games is "Find most ways of using something (say, a paper clip)".
 
