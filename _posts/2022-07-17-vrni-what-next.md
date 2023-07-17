@@ -14,7 +14,7 @@ We will be covering broader areas like:
 
 - Reducing network clutter and saving costs.
 
-- Power of network flows.
+- [Power of network flows.](https://vrniblog.github.io/2023/06/02/white-paper-1.html)
 
 - Network troubleshooting using GNT.
 
@@ -27,7 +27,6 @@ We will be covering broader areas like:
 - Monitoring and troubleshooting security configurations.
 
 - Monitoring and troubleshooting your vCenter using vRNI.
-
 
 vRNI has humongous amount of data in the form of configuration, flows and metrics, and it's query interface and other features to access this data makes it a really powerful tool.
 
