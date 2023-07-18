@@ -77,7 +77,7 @@ Users can leverage the existing dashboard definitions to create dashboards and g
 ## Demo
 Following is a link to a short demo covering the functionalities of the Dashboard Exchange:
 
-[Demo link](https://onevmw-my.sharepoint.com/:v:/g/personal/dbaheti_vmware_com/EWdmNUAsUSFNoGUcLIZChCMBzO2Emhid6PJxdlH1M4bUtQ?e=O1ONpD)
+[Demo link](https://youtu.be/nAWVuiKzpMM)
 
 ## Conclusion
 We believe the dashboard exchange will help the customers in obtaining and monitoring useful information from their environment.
