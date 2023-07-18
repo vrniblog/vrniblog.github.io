@@ -12,21 +12,25 @@ While there is enough material available here for the standard usage scenarios a
 
 We will be covering broader areas like:
 
-- Reducing network clutter and saving costs.
+- [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
 
 - [Power of network flows.](https://vrniblog.github.io/2023/06/02/white-paper-1.html)
 
-- Network troubleshooting using GNT.
+- [Leveraging Dashboard definitions from other users.](https://vrniblog.github.io/2023/07/14/dashboard-exchange-blog-post.html)
 
-- [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
+- [Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
 
-- Latency Monitoring using vRNI
+- Latency Troubleshooting using vRNI. [Coming Soon]
 
-- Troubleshooting the load balancer woes.
+- Reducing network clutter and saving costs. [Coming Soon]
 
-- Monitoring and troubleshooting security configurations.
+- Network troubleshooting using GNT. [Coming Soon]
 
-- Monitoring and troubleshooting your vCenter using vRNI.
+- Troubleshooting the load balancer woes. [Coming Soon]
+
+- Monitoring and troubleshooting security configurations. [Coming Soon]
+
+- Monitoring and troubleshooting your vCenter using vRNI. [Coming Soon]
 
 vRNI has humongous amount of data in the form of configuration, flows and metrics, and it's query interface and other features to access this data makes it a really powerful tool.
 
