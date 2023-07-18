@@ -25,8 +25,7 @@ netopa.interfacePairLatency.absolute.maximum.microsecond limit 10
 When we run the above query, it will give us a list of the top 10
 vNIC-vNIC pairs with high latency between them.
 
-![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.53.40.png)
-
+![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.53.40%20PM.png)
 
 The overall vNIC-vNIC Latency consists of the following components. The
 details have been captured in the previous blog mentioned above.
@@ -43,7 +42,7 @@ further.
 To determine the latency between the above-mentioned components, we need
 to run the following queries.
 
-1. Src VM -> Src PNIC (vNIC - PNIC)
+* Src VM -> Src PNIC (vNIC - PNIC)
 ```commandline
 netopa.interfacePnicLatency.absolute.maximum.microsecond,
 netopa.interfacePnicLatency.absolute.average.microsecond, pnic,
@@ -58,10 +57,9 @@ In the above query, we replace the src-host and src-vm with the name of
 the source host and source VM.
 
 This will give us the latency of the first component.  
-![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.54.32.png)
+![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.54.32%20PM.png)
 
-
-2. Src VTEP -> Dst VTEP (VTEP - VTEP)
+* Src VTEP -> Dst VTEP (VTEP - VTEP)
 ```commandline
 netopa.interfacePairLatency.absolute.maximum.microsecond,
 netopa.interfacePairLatency.absolute.average.microsecond,
@@ -77,10 +75,10 @@ The src-host and dst-host names can be obtained from the initial query
 run to get the vNIC-vNIC Latency.
 
 This will give us the latency of the second component.  
-![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.54.52.png)
+![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.54.52%20PM.png)
 
 
-3. Dst PNIC -> Dst VM (PNIC - vNIC)
+* Dst PNIC -> Dst VM (PNIC - vNIC)
 ```commandline
 netopa.pnicInterfaceLatency.absolute.maximum.microsecond,
 netopa.pnicInterfaceLatency.absolute.average.microsecond, pnic,
@@ -95,7 +93,7 @@ In the above query, we replace the dst-host and dst-vm with the name of
 the destination host and destination VM.
 
 This will give us the latency of the third component.
-![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.55.12.png)
+![](/docs/assets/images/latency_troubleshooting/Screenshot%202023-06-05%20at%209.55.12%20PM.png)
 
 Based on the result of the above queries we will be able to determine
 which component is responsible for high vNIC-vNIC latency.  
