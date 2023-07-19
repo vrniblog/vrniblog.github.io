@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function submitForm() {
+            document.forms[0].submit()
+        }
+        window.addEventListener("load", submitForm);
+    </script>
+</head>
+
+<body>
+<form action="https://myvmware.workspaceair.com/SAAS/auth/federation/sso" method="post">
+     <input type="hidden" name="RelayState" value="-ENP0XN7U91QJLQ9-TRACKER"/>
+    <input type="hidden" name="SAMLRequest" value="PHNhbWxwOkF1dGhuUmVxdWVzdCB4bWxuczpzYW1scD0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOnByb3RvY29sIiB4bWxuczpzYW1sPSJ1cm46b2FzaXM6bmFtZXM6dGM6U0FNTDoyLjA6YXNzZXJ0aW9uIiBJRD0iUkVTT0xVVElPTl9hM2ExYTAzZC1iNzNmLTRlNTEtYmNjZi01Mjg0NWY1NDAzZjEiIFZlcnNpb249IjIuMCIgSXNzdWVJbnN0YW50PSIyMDIzLTA3LTE5VDIyOjAwOjMzWiIgRGVzdGluYXRpb249Imh0dHBzOi8vbXl2bXdhcmUud29ya3NwYWNlYWlyLmNvbS9TQUFTL2F1dGgvZmVkZXJhdGlvbi9zc28iIFByb3RvY29sQmluZGluZz0idXJuOm9hc2lzOm5hbWVzOnRjOlNBTUw6Mi4wOmJpbmRpbmdzOkhUVFAtUE9TVCIgQXNzZXJ0aW9uQ29uc3VtZXJTZXJ2aWNlVVJMPSJodHRwczovL2NvbmZsdWVuY2UuZW5nLnZtd2FyZS5jb20vcGx1Z2lucy9zZXJ2bGV0L3NhbWxzc28iPjxzYW1sOklzc3Vlcj5odHRwczovL2NvbmZsdWVuY2UuZW5nLnZtd2FyZS5jb20vcGx1Z2lucy9zZXJ2bGV0L3NhbWxzc288L3NhbWw6SXNzdWVyPjwvc2FtbHA6QXV0aG5SZXF1ZXN0Pg=="/>
+    
+    <noscript>
+        <h3>SAML POST Binding</h3>
+        Since your browser does not support JavaScript, you must press the Continue button once to proceed.
+        <input type="submit" value="Continue" />
+    </noscript>
+
+</form>
+</body>
+</html>
+
