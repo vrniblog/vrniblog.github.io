@@ -1,7 +1,7 @@
 # Latency Troubleshooting using vRNI
 
 In the blog,
-[Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
+[Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI.html)
 we learnt how can we use Aria Operations for Network to Monitor
 Latency.  
 But the next part is how do we determine what is the exact cause for the
