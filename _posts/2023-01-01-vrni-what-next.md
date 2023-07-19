@@ -20,7 +20,9 @@ We will be covering broader areas like:
 
 - [Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI.html)
 
-- Latency Troubleshooting using vRNI. [Coming Soon]
+- [Latency Troubleshooting using vRNI.](https://vrniblog.github.io/2023/07/15/Latency_Troubleshooting_using_vRNI.html)
+
+- [Leveraging changes for troubleshooting and monitoring](https://vrniblog.github.io/2023/07/16/Leveraging_change_alerts_for_monitoring_and_troubleshooting.html)
 
 - Reducing network clutter and saving costs. [Coming Soon]
 

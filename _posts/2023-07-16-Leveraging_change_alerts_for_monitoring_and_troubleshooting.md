@@ -1,4 +1,4 @@
-# Leveraging change alerts for monitoring and troubleshooting - Network Insight - VMware Core Confluence
+# Leveraging change alerts for monitoring and troubleshooting
 
 “Change is the only constant” is a common adage, but then it was Jeffrey
 Gitomer who got it right when he said, “Change is not a four-letter
