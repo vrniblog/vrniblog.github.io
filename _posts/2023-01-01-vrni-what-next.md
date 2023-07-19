@@ -12,13 +12,13 @@ While there is enough material available here for the standard usage scenarios a
 
 We will be covering broader areas like:
 
-- [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
+- [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI.html)
 
 - [Power of network flows.](https://vrniblog.github.io/2023/06/02/white-paper-1.html)
 
-- [Leveraging Dashboard definitions from other users.](https://vrniblog.github.io/2023/07/14/dashboard-exchange-blog-post.html)
+- [Leveraging Dashboard definitions from other users.](https://vrniblog.github.io/2023/07/14/vRNI-Dashboard-Exchange.html)
 
-- [Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)
+- [Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI.html)
 
 - Latency Troubleshooting using vRNI. [Coming Soon]
 
