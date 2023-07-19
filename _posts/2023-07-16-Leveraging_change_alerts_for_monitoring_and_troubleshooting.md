@@ -60,31 +60,31 @@ One of the ways an admin could troubleshoot this issue is:
 
 Step 1: Check out the VM to VM path for these two VMs in vRNI, say it
 shows up like this:  
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2018.01.26.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2018.01.26.png)
 
 Step 2: Click on the "Now" drop down:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.08.53-2.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.08.53-2.png)
 
 Step 3: You'll see the ticks on the timeline indicating the changes that
 have happened in the entities associated with the VM 
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.09.04.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.09.04.png)
 
 Step 4: If you click on the change ticks on extreme right on the
 timeline, you'll see a list of latest config changes observed here
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.23.44.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.23.44.png)
 
 Step 5: On the timeline, select the point just before when the change
 was observed
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.24.04.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.24.04.png)
 
 Step 6: Once you go back in timeline, you see the VM to VM path show up
 like this
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.10.25.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-18%20at%2017.10.25.png)
 
 So here we see that the VMs were originally on the same host, so the
 communication between them would obviously be relatively faster than
@@ -98,19 +98,19 @@ Here is a more real scenario that happened with a user:
 
 Original path was:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.46.07.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.46.07.png)
 
 And after an accidental route change, the communication didn't go down,
 but was severely impacted since the path changed to:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.46.26.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.46.26.png)
 
 We were able to figure this issue with help of the changes seen in the
 environment over previous few days.
 
 So if some of your common troubleshooting scenarios follow the logic
 shown here:  
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.52.16.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.52.16.png)
   
 Then change tracking and change alerting carried out by vRNI can be a
 really powerful tool in your troubleshooting arsenal.
@@ -128,20 +128,20 @@ entity dashboards, applications, search results etc.
 For instance, here we see all the changes that vRNI has observed for a
 particular virtual machine:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.13.05.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.13.05.png)
 
 and an ESX host:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.22.49.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.22.49.png)
 
 To view all the change alerts, one can use these entry points from the
 navigation menu on the left side in the vRNI UI:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.26.40.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.26.40.png)
 
 Or one can type in "Change Alerts" in the global search bar:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.34.07.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2010.34.07.png)
 
 Like other alerts, you can subscribe for e-mail or snmp notifications on
 these change alerts, but be warned, that usually the volume of these
@@ -161,7 +161,7 @@ For that, you can execute a query like: "change alert group by message "
 That should show the various types of changes that have happened in your
 environment in the last 24 hours, like this:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2011.56.16.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2011.56.16.png)
 
 In above scenario, you notice that there are 77 changes associated with
 VMs, and may be that seems strange/unexpected to you, so you'd like to
@@ -170,7 +170,7 @@ like: "change alert where Message='Entity type VMware VM properties
 updated' group by changedProperties.propertyPath" which gives you an
 output like:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2013.02.31.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2013.02.31.png)
 
 This gives you a much better idea of what has changed for the VMs and
 whether it is something you need to dig deeper into further.
@@ -205,7 +205,7 @@ This is where the vRNI Dashboard Exchange comes into picture.
 Using the dashboard exchange tool and definitions, you can create
 detailed dashboards like the one below in a matter of minutes:
 
-![](docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.42.09.png)
+![](/docs/assets/images/change_alerts/Screenshot%202023-07-19%20at%2023.42.09.png)
 
 To find more about the vRNI Dashboard Exchange, check this blog out:
 
