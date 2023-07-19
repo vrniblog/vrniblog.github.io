@@ -1,4 +1,4 @@
-# Latency Monitoring using vRNI - Network Insight - VMware Core Confluence
+# Latency Monitoring using vRNI
 
   
 

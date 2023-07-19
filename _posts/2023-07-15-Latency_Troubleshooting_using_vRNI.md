@@ -1,4 +1,4 @@
-# Latency Troubleshooting using vRNI - Network Insight - VMware Core Confluence
+# Latency Troubleshooting using vRNI
 
 In the blog,
 [Latency Monitoring using vRNI](https://vrniblog.github.io/2023/07/15/Latency_Monitoring_using_vRNI_-_Network_Insight_-_VMware_Core_Confluence.html)

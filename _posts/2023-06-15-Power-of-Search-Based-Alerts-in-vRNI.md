@@ -1,4 +1,4 @@
-# Power of Search Based Alerts in vRNI - Network Insight - VMware Core Confluence
+# Power of Search Based Alerts in vRNI
 
 Spotting problem based on configuration or metrics and alerting the end
 user is an important usecase in vRNI. Hence vRNI provides about 380 out
