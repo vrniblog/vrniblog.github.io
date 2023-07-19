@@ -8,7 +8,7 @@ It is not only a great exercise to improve your creativity and imagination, but 
 
 vRNI (or Aria Operations for Networks), while not as simple and humble as a paper clip, is an extremely versatile application which can help you solve a plethora of problems in your datacenter management operations.
 
-While there is enough material available here for the standard usage scenarios around vRNI, in these series of blogs, we will cover some practical problems and how vRNI can help you solve those problems.
+While there is enough material available [here](https://docs.vmware.com/en/VMware-vRealize-Network-Insight/index.html) for the standard usage scenarios around vRNI, in these series of blogs, we will cover some practical problems and how vRNI can help you solve those problems.
 
 We will be covering broader areas like:
 
