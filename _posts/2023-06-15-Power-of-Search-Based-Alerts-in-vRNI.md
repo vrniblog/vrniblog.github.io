@@ -100,8 +100,6 @@ Lets see how we could do that for the examples we mentioned earlier.
       a request body like this to create a search based alert on
       alerts itself:
       
-      ?
-      
       <table data-border="0" data-cellpadding="0" data-cellspacing="0">
       <colgroup>
       <col style="width: 100%" />
