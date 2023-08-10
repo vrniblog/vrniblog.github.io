@@ -24,7 +24,7 @@ We will be covering broader areas like:
 
 - [Leveraging changes for troubleshooting and monitoring](https://vrniblog.github.io/2023/07/16/Leveraging_change_alerts_for_monitoring_and_troubleshooting.html)
 
-- [NSX-T Transport Node troubleshooting using GNT] (https://vrniblog.github.io/2023/08/01/Using_GNT_For_NSXT_Transport_Node.html)
+- [NSX-T Transport Node troubleshooting using GNT](https://vrniblog.github.io/2023/08/01/Using_GNT_For_NSXT_Transport_Node.html)
 
 - Reducing network clutter and saving costs. [Coming Soon]
 
