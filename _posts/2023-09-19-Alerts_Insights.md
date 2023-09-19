@@ -52,25 +52,25 @@ an alerts summary dashboard for monitoring or exec overview.
     Query: "count of new alerts where manager.entity type = 800 or Alert Tags = 'NSX-T' group by Manager, Severity in last 24 hours"
     
     Sample Result:
-    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-01%20at%2012.22.01.png)
+    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-14%20at%2012.22.01.png)
     
 8.  Getting count of new problems opened in last 24 hours for your virtual compute infrastructure grouped by severity of the problem.
     Query: "count of new alerts where manager.Entity Type = 8 and Alert Tags != 'NSX-T' group by Manager, Severity in last 24 hours"
 
     Sample Result:
-    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-01%20at%2012.23.03.png)
+    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-14%20at%2012.23.03.png)
     
 9.  Getting count of new problems opened in last 24 hours for your physical networking infrastructure grouped by severity of the problem.
     Query: "count of new alerts where archived = 'false' and (relatedEntities in (physical device where entity Type in (14, 69, 256) and vendor not in ('F5 Networks, Inc') and not (vendor = 'Cisco Systems, Inc.' and model like 'ASA'))) group by severity in last 24 hours"
 
     Sample Result:
-    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-01%20at%2018.57.05.png)
+    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-18%20at%2018.57.05.png)
     
 10. Getting count of new problems opened in last 24 hours for your firewalls
     Query: "count of new alerts where message like firewall group by name, severity in last 24 hours"
 
     Sample Result:
-    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-01%20at%2018.57.46.png)
+    ![](/docs/assets/images/alerts_insight/Screenshot%202023-09-18%20at%2018.57.46.png)
 
 Now, it would be tedious to create such a dashboard by entering these
 queries manually on the multiple vRNI setups in your environment.
