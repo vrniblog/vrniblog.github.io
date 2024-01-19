@@ -12,6 +12,8 @@ While there is enough material available [here](https://docs.vmware.com/en/VMwar
 
 We will be covering broader areas like:
 
+- [Glimpse of what you can do with vRNI](https://vrniblog.github.io/2022/12/15/What_can_I_do_with_this_tool.html)
+
 - [Flexibility of User defined alerts.](https://vrniblog.github.io/2023/06/15/Power-of-Search-Based-Alerts-in-vRNI.html)
 
 - [Power of network flows.](https://vrniblog.github.io/2023/06/02/white-paper-1.html)

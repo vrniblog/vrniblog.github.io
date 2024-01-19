@@ -1,4 +1,4 @@
-# What can I do with this tool?
+# Glimpse of what you can do with vRNI?
 
 vRNI has humongous amount of data in the form of versioned, granular and
 strongly connected configuration graph, flows, metrics, alerts,
