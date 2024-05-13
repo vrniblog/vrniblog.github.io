@@ -30,6 +30,8 @@ We will be covering broader areas like:
 
 - [Reducing alert fatigue using Alert Insights Dashboard](https://vrniblog.github.io/2023/09/19/Alerts_Insights.html)
 
+- [Blast radius of alerts](https://vrniblog.github.io/2024/05/10/Mr._Monk_and_the_blast_radius_of_alerts.html)
+
 - Reducing network clutter and saving costs. [Coming Soon]
 
 - Troubleshooting the load balancer woes. [Coming Soon]
